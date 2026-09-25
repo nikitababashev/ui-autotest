@@ -19,7 +19,7 @@ public class ProjectPage {
     private final SelenideElement textCheckPageTestRunsAndResults = $("[data-testid='testCaseContentHeaderTitle']");
 
     public void openPage(){
-        open("/projects/overview/1");
+        open("/index.php?/projects/overview/1");
     }
 
     public void openTestCases(){

@@ -15,7 +15,7 @@ public class DashboardPage {
     private final SelenideElement textCheckSuccessfulCreatedProject = $("[data-testid='messageSuccessDivBox']");
 
     public void openPage(){
-        open("/dashboard");
+        open("/index.php?/dashboard");
     }
 
     public void openDashboard(){

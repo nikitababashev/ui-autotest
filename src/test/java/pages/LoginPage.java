@@ -27,7 +27,7 @@ public class LoginPage {
     }
 
     public void openPage(){
-        open("/auth/login");
+        open("/index.php?/auth/login");
     }
 
     public void login(String email, String password){
